@@ -1,0 +1,27 @@
+[
+    {
+        "_id": "001",
+        "image" : "https://i.ibb.co/nmLR71S/louvre-museum.jpg",
+        "guide":"Leo Mateo",
+        "place":"Louvre Museum",
+        "price":"50",
+        "durations": "3 Days 4 Nights"
+        
+    },
+    {
+        "_id": "002",
+        "image" : "https://i.ibb.co/V3kM4Bh/vinales-valley.jpg",
+        "guide":"Roberto Alex",
+        "place":"Vinales Valley",
+        "price":"40",
+        "durations": "3 Days 4 Nights"
+    },
+    {
+        "_id": "003",
+        "image" : "https://i.ibb.co/vcKwLRZ/cathedrale-de-paris.png",
+        "guide":"Robert Clue",
+        "place":"Cathedrale De Paris",
+        "price":"55",
+        "durations": "4 Days 5 Nights"
+    }
+]
