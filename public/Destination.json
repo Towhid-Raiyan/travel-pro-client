@@ -1,0 +1,52 @@
+[
+    {
+        "country": "Turkey",
+        "picture": "https://i.ibb.co/vwt2mDy/turkey.webp",
+        "description": "Turkey, where East meets West, offers a rich blend of history, culture, and natural beauty. Explore Istanbul, relax on Antalya's beaches, or discover unique landscapes in Cappadocia.",
+        "video_link": "https://www.example.com/turkey-video",
+        "id": "TR123",
+        "currency": "Turkish Lira (TRY)",
+        "language": "Turkish",
+        "time_zone": "UTC+3"
+    },
+    {
+        "country": "Switzerland",
+        "picture": "https://i.ibb.co/6F97jYW/Switzerland.webp",
+        "description": "Switzerland, a haven for nature lovers, boasts the breathtaking Swiss Alps. Visit Zurich, ski in Zermatt, or relax by Lake Geneva's shores.",
+        "video_link": "https://www.example.com/switzerland-video",
+        "id": "CH456",
+        "currency": "Swiss Franc (CHF)",
+        "language": "Swiss German, French, Italian, Romansh",
+        "time_zone": "UTC+1"
+    },
+    {
+        "country": "Italy",
+        "picture": "https://i.ibb.co/ZWBdchr/Italy.webp",
+        "description": "Italy, land of art, history, and exquisite cuisine. Explore Rome, Florence, and Venice. Savor authentic pizza in Naples or enjoy the Amalfi Coast.",
+        "video_link": "https://www.example.com/italy-video",
+        "id": "IT789",
+        "currency": "Euro (EUR)",
+        "language": "Italian",
+        "time_zone": "UTC+1"
+    },
+    {
+        "country": "Indonesia",
+        "picture": "https://i.ibb.co/gwJqNc7/indonesia.webp",
+        "description": "Indonesia's diverse archipelago offers tropical paradise in Bali, cultural treasures in Yogyakarta, and adventure in Komodo. Immerse in vibrant local cultures and stunning landscapes.",
+        "video_link": "https://www.example.com/indonesia-video",
+        "id": "ID101",
+        "currency": "Indonesian Rupiah (IDR)",
+        "language": "Indonesian",
+        "time_zone": "UTC+7 to UTC+9"
+    },
+    {
+        "country": "Thailand",
+        "picture": "https://i.ibb.co/q9Bry2R/tailand.webp",
+        "description": "Thailand, the Land of Smiles, offers bustling Bangkok, serene Phuket beaches, and cultural experiences in Chiang Mai. Enjoy street food and vibrant nightlife.",
+        "video_link": "https://www.example.com/thailand-video",
+        "id": "TH234",
+        "currency": "Thai Baht (THB)",
+        "language": "Thai",
+        "time_zone": "UTC+7"
+    }
+]

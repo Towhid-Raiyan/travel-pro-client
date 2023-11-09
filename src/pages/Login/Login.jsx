@@ -1,29 +1,41 @@
 
 import Lottie from "react-lottie";
-import animationData from "../../../public/lottie/register.json";
+import animationData from "../../assets/lottie/register.json";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
-import { Form, Link } from "react-router-dom";
+import { Form, Link, useLocation, useNavigate } from "react-router-dom";
+import { useContext, useState } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Login = () => {
 
+    const {loginWithEmail} = useContext(AuthContext);
+
+    const navigate = useNavigate();
+    const location = useLocation();
+    const [status, setStatus] = useState(null);
+    const [error, setError] = useState(null);
+    const from = location?.state?.from?.pathname || "/";
+
     const hangleEmailLogin = (event) => {
-        // setStatus(null);
-        // setError(null);
+        setStatus(null);
+        setError(null);
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
-        // loginWithEmail(email, password)
-        //     .then((result) => {
-        //         setError(null);
-        //         setStatus("Sign In Successfull");
-        //         setUser(result.user);
-        //         navigate(from, { replace: true });
-        //     })
-        //     .catch((error) => {
-        //         setError(error.message);
-        //     });
+        loginWithEmail(email, password)
+            .then((result) => {
+                const user = result.user;
+                console.log(user);
+                setError(null);
+                setStatus("Sign In Successfull");
+                // setUser(result.user);
+                navigate(from, { replace: true });
+            })
+            .catch((error) => {
+                setError(error.message);
+             });
         form.reset();
     };
 

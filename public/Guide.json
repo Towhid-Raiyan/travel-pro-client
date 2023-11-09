@@ -3,18 +3,42 @@
         "_id": "001",
         "image" : "https://i.ibb.co/jRVkpwL/tour-guide-one.png",
         "name":"Leo Mateo",
-        "tours": "30"
+        "tours": "30",
+        "designation": "Guide"
     },
     {
         "_id": "002",
         "image" : "https://i.ibb.co/YRFzx7f/tour-guide-three.jpg",
         "name":"Robert Clue",
-        "tours": "20"
+        "tours": "20",
+        "designation": "Guide"
     },
     {
         "_id": "003",
         "image" : "https://i.ibb.co/VS2hKpx/tour-guide-two.png",
         "name":"Roberto Alex",
-        "tours": "24"
+        "tours": "24",
+        "designation": "Guide"
+    },
+    {
+        "_id": "004",
+        "image" : "https://i.ibb.co/KDYbxLv/Untitled-design-24.png",
+        "name":"Steven Miller",
+        "tours": "14",
+        "designation": "Customer Support"
+    },
+    {
+        "_id": "005",
+        "image" : "https://i.ibb.co/fqncF9n/Untitled-design-23.png",
+        "name":"Jack Archer",
+        "tours": "17",
+        "designation": "Manager"
+    },
+    {
+        "_id": "006",
+        "image" : "https://i.ibb.co/c8RCRtC/P3-OLGJ1copy1.png",
+        "name":"Kagiso Peterson",
+        "tours": "21",
+        "designation": "Booking Planer"
     }
 ]

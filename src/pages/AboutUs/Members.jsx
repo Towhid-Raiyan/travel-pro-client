@@ -4,12 +4,9 @@ import { useEffect } from "react";
 import { Fade } from "react-awesome-reveal";
 import { Typewriter } from "react-simple-typewriter";
 
-const TourGuides = () => {
+const Members = () => {
 
     const [guides, setGuides] = useState([]);
-    const [topGuides, setTopGuides] = useState([]);
-    console.log(guides);
-    
 
     useEffect(() => {
         axios
@@ -26,11 +23,11 @@ const TourGuides = () => {
     return (
         <div className="container mx-auto">
             <h1 className="text-center text-4xl font-bold my-20">
-                Tour Guides{" "}
+                Our {" "}
                 <span style={{ color: "teal", fontWeight: "bold" }}>
                     <Typewriter
                         className="text-teal-700"
-                        words={["Dedicated", "Professional"]}
+                        words={["Dedicated", "Professional", "Hard Working"]}
                         loop={false}
                         cursor
                         cursorStyle="_"
@@ -39,6 +36,7 @@ const TourGuides = () => {
                         delaySpeed={1000}
                     />
                 </span>
+                Team
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-4">
                 {guides.map((item) => (
@@ -52,6 +50,9 @@ const TourGuides = () => {
                             <div className="card-body items-center">
                                 <h2 className="card-title">{item?.name}</h2>
                                 <p className="text-sm text-gray-600">
+                                     {item?.designation}
+                                </p>
+                                <p className="text-sm text-gray-600">
                                     Guided Tours: {item?.tours}
                                 </p>
                             </div>
@@ -63,4 +64,4 @@ const TourGuides = () => {
     );
 };
 
-export default TourGuides;
+export default Members;

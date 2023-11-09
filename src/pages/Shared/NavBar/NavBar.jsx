@@ -1,9 +1,31 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+import { AuthContext } from "../../../providers/AuthProvider";
+import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
 
 const NavBar = () => {
+    const { user, logOut, name, photo} = useContext(AuthContext);
+    console.log(name);
+    console.log(photo);
+
+    const handleLogout = () => {
+        logOut()
+            .then(() => {
+                toast.error("Logout Successful", { autoClose: 2000 });
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+    };
+
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/aboutUs">About Us</Link></li>
+        {
+           user? <><button onClick={handleLogout}>Logout</button></> : <><li><Link to="/login">Login</Link></li></>
+        }
     </>
     return (
         <>
@@ -24,8 +46,28 @@ const NavBar = () => {
                         {navOptions}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="invisible lg:navbar-end  lg:visible me-10 ">
+                    <div className="avatar placeholder rounded-full ring ring-danger ring-offset-base-100 ring-offset-2">
+                        <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
+                            {user ? (
+                                <img id="yes-element" src={photo} alt={name} />
+                            ) : (
+                                <span id="no-element">X</span>
+                            )}
+
+                            {/* <span id="no-element">X</span> */}
+                        </div>
+                    </div>
+                    <Tooltip
+                        place="right"
+                        anchorSelect="#yes-element"
+                        content={name}
+                    />
+                    <Tooltip
+                        place="right"
+                        anchorSelect="#no-element"
+                        content="No User"
+                    />
                 </div>
             </div>
         </>
