@@ -1,8 +1,22 @@
-# React + Vite
+### Live Website Link: https://travel-pro-f78ca.web.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Website Name : Travel Pro
+A Travel Booking Web Application
 
-Currently, two official plugins are available:
+# Instruction to Use Application:
+Any user who have internet and a browser can use this application. For that just just need to go mentioned link. There are some pages which is protected, that means if user want to visit those feature user have to sign up and sign in first.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Feature
+1. A well decorated Home page which represents popular tourist place, upcoming tours, our guides information and testimonials of our service from our clients.
+2. There is a search option in Home page by which user can Book his/her travel destination.
+3. If a user book a travel destination for him/her they can see details of that destination in My Tours route.
+4. In About Us route user can get information about our company and website.
+5. Authentication of this website handled by Firebase.
+
+# Technology Used
+Front-end Packages: React, React Router Dom,React Query , React Toastify, Axios,React Hook Form, React Lottie
+State Management: React Context API
+Styling: CSS, Tailwind CSS
+Animation: React Spring, React Simple Typewriter, React Awesome Reveal
+Authentication: Google Firebase
+Deployment: Firebase
