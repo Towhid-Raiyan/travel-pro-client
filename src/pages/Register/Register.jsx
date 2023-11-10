@@ -68,33 +68,6 @@ const Register = () => {
                         toast.success("Account Created! Now Please Login"); 
                         logOut();
                         Navigate("/login");
-                        // const saveUser = {
-                        //     name: name,
-                        //     email: email,
-                        //     image: photo
-                        // };
-                        // console.log(saveUser);
-                        // fetch("https://ornaldo-sports-server.vercel.app/users", {
-                        //     method: "POST",
-                        //     headers: {
-                        //         "content-type": "application/json",
-                        //     },
-                        //     body: JSON.stringify(saveUser),
-                        // })
-                            // .then((res) => res.json())
-                            // .then((data) => {
-                            //     console.log(data);
-                            //     if (data.insertedId) {
-                            //         setStatus("Account Created!! Please Login");
-                            //         toast.success(
-                            //             "Account Created! Now Please Login"
-                            //         );
-
-                            //         reset();
-                            //         logOut();
-                            //         Navigate("/login");
-                            //     }
-                            // });
                     })
                     .catch((error) => {
                         toast.error(error.message);

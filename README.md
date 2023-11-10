@@ -14,9 +14,9 @@ Any user who have internet and a browser can use this application. For that just
 5. Authentication of this website handled by Firebase.
 
 # Technology Used
-Front-end Packages: React, React Router Dom,React Query , React Toastify, Axios,React Hook Form, React Lottie
-State Management: React Context API
-Styling: CSS, Tailwind CSS
-Animation: React Spring, React Simple Typewriter, React Awesome Reveal
-Authentication: Google Firebase
+Front-end Packages: React, React Router Dom,React Query , React Toastify, Axios,React Hook Form, React Lottie<br/>
+State Management: React Context API <br/>
+Styling: CSS, Tailwind CSS<br/>
+Animation: React Spring, React Simple Typewriter, React Awesome Reveal<br/>
+Authentication: Google Firebase<br/>
 Deployment: Firebase
