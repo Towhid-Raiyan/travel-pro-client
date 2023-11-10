@@ -6,17 +6,17 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Members = () => {
 
-    const [guides, setGuides] = useState([]);
+    const [members, setMembers] = useState([]);
 
     useEffect(() => {
         axios
             .get("Guide.json")
             .then((response) => {
-                setGuides(response.data);
+                setMembers(response.data);
                 console.log(response.data);
             })
             .catch((error) => {
-                console.error("Error fetching popular instructors:", error);
+                console.error("Error fetching members:", error);
             });
     }, []);
 
@@ -39,7 +39,7 @@ const Members = () => {
                 Team
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-4">
-                {guides.map((item) => (
+                {members.map((item) => (
                     <Fade key={item._id}>
                         <div className="card bg-base-100 shadow-xl my-10 p-2 dark:bg-slate-400">
                             <figure className="avatar">

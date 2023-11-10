@@ -19,7 +19,7 @@ const TourGuides = () => {
                 console.log(response.data);
             })
             .catch((error) => {
-                console.error("Error fetching popular instructors:", error);
+                console.error("Error fetching popular guides:", error);
             });
     }, []);
 

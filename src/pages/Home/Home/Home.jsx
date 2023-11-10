@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import FindingDestination from "../FindingDestination/FindingDestination";
 import Reviews from "../Reviews/Reviews";
 import TopDestination from "../TopDestination/TopDestination";
 import TourGuides from "../TourGuides/TourGuides";
@@ -8,6 +9,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            <FindingDestination></FindingDestination>
             <TopDestination></TopDestination>
             <UpcomingTours></UpcomingTours>
             <TourGuides></TourGuides>

@@ -23,13 +23,14 @@ const NavBar = () => {
     const navOptions = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/aboutUs">About Us</Link></li>
+        <li><Link to="/destination">My Tours</Link></li>
         {
            user? <><button onClick={handleLogout}>Logout</button></> : <><li><Link to="/login">Login</Link></li></>
         }
     </>
     return (
         <>
-            <div className="navbar fixed z-10 max-w-screen-xl opacity-30 bg-teal-950 text-white">
+            <div className="navbar fixed z-10 max-w-screen-xl opacity-60 bg-teal-950 text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
