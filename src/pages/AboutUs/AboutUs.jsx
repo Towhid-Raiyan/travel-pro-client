@@ -5,7 +5,7 @@ const AboutUs = () => {
         <div>
             <figure className="relative">
                 <img
-                    src="../../../public/Banner/aboutUs.webp"
+                    src="https://i.ibb.co/3TbqBP0/aboutUs.webp"
                     alt=""
                     className="w-full h-[500px] mb-20"
                 />
@@ -20,7 +20,7 @@ const AboutUs = () => {
             <div className=''>
                 <div className='md:grid grid-cols-2 '>
                     <div className="ml-3">
-                        <img src="../../../public/Banner/travelPhoto.png" className="" alt="" />
+                        <img src="https://i.ibb.co/26tnNmv/travel-Photo.png" className="" alt="" />
                     </div>
                     <div className='pl-16'>
                         <h1 className="text-5xl font-bold italic text-teal-600 py-5">About Us</h1>

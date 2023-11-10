@@ -35,7 +35,7 @@ const TopDestination = () => {
                             <img
                                 alt="gallery"
                                 className=" block h-full w-full rounded-lg object-cover object-center transition duration-300 ease-in-out hover:scale-105"
-                                src="../../../../public/Destination/India-1.jpg"
+                                src="https://i.ibb.co/2qmQxsK/India-1.jpg"
                             />
                             <h3 className="text-3xl text-white font-semibold ml-4 -mt-10">India</h3>
                         </div>
@@ -43,15 +43,15 @@ const TopDestination = () => {
                             <img
                                 alt="gallery"
                                 className=" block h-full w-full rounded-lg object-cover object-center transition duration-300 ease-in-out hover:scale-105"
-                                src="../../../../public/Destination/swizerland.jpg"
+                                src="https://i.ibb.co/z6tfKqF/swizerland.jpg"
                             />
-                            <h3 className="text-3xl text-white font-semibold ml-4 -mt-10 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">Swizerland</h3>
+                            <h3 className="text-3xl text-white font-semibold ml-4 -mt-10 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">Switzerland</h3>
                         </div>
                         <div className="w-full p-1 md:p-4 4 " data-aos="fade-up">
                             <img
                                 alt="gallery"
                                 className=" block h-full w-full rounded-lg object-cover object-center transition duration-300 ease-in-out hover:scale-105"
-                                src="../../../../public/Destination/England-1.png"
+                                src="https://i.ibb.co/Rp9WZRb/England-1.png"
                             />
                             <h3 className="text-3xl text-white font-semibold ml-4 -mt-14">England</h3>
                         </div>
@@ -61,7 +61,7 @@ const TopDestination = () => {
                             <img
                                 alt="gallery"
                                 className=" block h-full w-full rounded-lg object-cover object-center transition duration-300 ease-in-out hover:scale-105"
-                                src="../../../../public/Destination/Newzealand-1.png"
+                                src="https://i.ibb.co/Y31m0nc/Newzealand-1.png"
                             />
                             <h3 className="text-3xl text-white font-semibold ml-4 -mt-14">New Zealand</h3>
                         </div>
@@ -69,7 +69,7 @@ const TopDestination = () => {
                             <img
                                 alt="gallery"
                                 className=" block h-full w-full rounded-lg object-cover object-center transition duration-300 ease-in-out hover:scale-105"
-                                src="../../../../public/Destination/Italy.jpg"
+                                src="https://i.ibb.co/58zgwWt/Italy.jpg"
                             />
                             <h3 className="text-3xl text-white font-semibold ml-4 -mt-12">Italy</h3>
                         </div>
@@ -77,7 +77,7 @@ const TopDestination = () => {
                             <img
                                 alt="gallery"
                                 className=" block h-full w-full rounded-lg object-cover object-center transition duration-300 ease-in-out hover:scale-105 "
-                                src="../../../../public/Destination/Bali.jpg"
+                                src="https://i.ibb.co/1T1Yy4W/Bali.jpg"
                             />
                             <h3 className="text-3xl text-white font-semibold ml-4 -mt-12">Bali</h3>
                         </div>

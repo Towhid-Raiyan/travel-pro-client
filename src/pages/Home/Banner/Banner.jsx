@@ -14,7 +14,7 @@ const Banner = () => {
         >
             <figure className="relative">
                 <img
-                    src=".../../../../public/Banner/home3-banner1-1.png"
+                    src="https://i.ibb.co/MM18Krf/home3-banner1-1.png"
                     alt=""
                     className="w-full"
                 />
@@ -27,7 +27,7 @@ const Banner = () => {
             </figure>
             <figure className="relative">
                 <img
-                    src="../../../../public/Banner/home3-banner2.png"
+                    src="https://i.ibb.co/TMrFvLC/home3-banner2.png"
                     alt=""
                     className="w-full"
                 />
