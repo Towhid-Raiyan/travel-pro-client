@@ -22,7 +22,24 @@ const FindingDestination = () => {
         });
         const formData = localStorage.getItem("formData");
         console.log(JSON.parse(formData));
-        
+        // fetch("https://server-college-selector-towhid-raiyan.vercel.app/student", {
+        //     method: "POST",
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //     },
+        //     body: JSON.stringify(data),
+        //     mode: 'cors'
+        // })
+        //     .then((res) => res.json())
+        //     .then(() => {
+        //         Swal.fire(
+        //             "Added!",
+        //             "Application Complete!!",
+        //             "success"
+        //         );
+        //         reset();
+        //     });
+        // console.log(data);
     };
     return (
         <div className="mt-5">
@@ -58,11 +75,11 @@ const FindingDestination = () => {
                                 </select>
                             </div>
                             {/* The button to open modal */}
-                            <label htmlFor="my_modal_7" className="btn btn-success text-white">open modal Book Now</label>
+                            <label htmlFor="my_modal_7" className="btn btn-success text-white">Book Now</label>
 
                             {/* Put this part before </body> tag */}
                             <input type="checkbox" id="my_modal_7" className="modal-toggle" />
-                            <div className="modal">
+                            <div className="modal ">
                                 <div className="modal-box">
                                     <Form onSubmit={handleSubmit(onSubmit)} className="card flex-shrink-0 w-full max-w-2xl mx-auto shadow-2xl bg-base-100 mb-6">
                                         <div className="card-body">

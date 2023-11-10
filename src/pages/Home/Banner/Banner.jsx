@@ -16,7 +16,7 @@ const Banner = () => {
                 <img
                     src="https://i.ibb.co/MM18Krf/home3-banner1-1.png"
                     alt=""
-                    className="w-full"
+                    className="w-full z-0"
                 />
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
@@ -29,7 +29,7 @@ const Banner = () => {
                 <img
                     src="https://i.ibb.co/TMrFvLC/home3-banner2.png"
                     alt=""
-                    className="w-full"
+                    className="w-full z-0"
                 />
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
